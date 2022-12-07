@@ -525,7 +525,7 @@ AS
            ,@@IDENTITY)
 GO
 
-ALTER PROCEDURE UsuarioGetAll '','',1
+ALTER PROCEDURE UsuarioGetAll '','',0
 @Nombre VARCHAR(50),
 @ApellidoPaterno VARCHAR(50),
 @IdRol TINYINT
